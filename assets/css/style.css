@@ -1,0 +1,30 @@
+body {
+    font-family: 'Assistant', sans-serif;
+}
+
+/*Navbar*/
+
+.navbar-brand {
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+.navbar {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.navbar-text {
+    text-transform: none;
+}
+
+/*Carousel*/
+
+/*Containers*/
+
+/*Buttons*/
+
+.btn {
+    font-weight: bold;
+    border-radius: 30px;
+}

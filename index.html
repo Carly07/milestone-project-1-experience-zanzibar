@@ -7,13 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Assistant&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Experience Zanzibar | Your guide to paradise </title>
 </head>
 
 <body>
 
-    <!--********HEADER********-->
+    <!--********NAVBAR********-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
         <a class="navbar-brand" href="#">Experience Zanzibar</a>
@@ -32,13 +33,13 @@
         </div>
         <div class="d-none d-lg-block">
             <p class="navbar-text my-auto mr-2"><i>Need advice?</i></p>
-            <a href="/login" class="btn btn--cta btn--blue">Ask a Question</a>
+            <a href="/login" class="btn btn-outline-secondary">Ask a Question</a>
         </div>
 
     </nav>
-    <!--********/.HEADER********-->
+    <!--********/.NAVBAR********-->
 
-    <!--********LANDING********-->
+    <!--********CAROUSEL********-->
 
     <!--Carousel Wrapper-->
     <div id="landing-slideshow" class="carousel slide carousel-fade" data-ride="carousel">
@@ -85,32 +86,80 @@
     </div>
     <!--/.Carousel Wrapper-->
 
-    <!--********/.LANDING********-->
+    <!--********/.CAROUSEL********-->
 
     <!--********OVERVIEW********-->
-    <section class="overview ">
-        <h1>Welcome to Zanzibar</h1>
-        <p>One of the worlds great cultural crossroads, where Africa meets Arabia, Zanzibar is an archipelago of historic Indian Ocean islands awash with atmosphere, intrigue and idyllic beach experiences.</p>
-    </section>
+    <div class="container-wrapper">
+        <div class="container overview-container">
+            <section class="overview ">
+                <h1>Welcome to Zanzibar</h1>
+                <p>One of the worlds great cultural crossroads, where Africa meets Arabia, Zanzibar is an archipelago of historic Indian Ocean islands awash with atmosphere, intrigue and idyllic beach experiences.</p>
+            </section>
+        </div>
+    </div>
     <!--********/.OVERVIEW********-->
 
     <!--********HIGHLIGHTS********-->
-    <section class="highlights ">
-        <h1>Highlights</h1>
-        <h2>Beautiful Beaches</h1>
-            <p>Idyllic white powdered sands lapped by the warm turquoise waters of the Indian Ocean provide the perfect place to relax and soak up the sun.</p>
-            <h2>Stunning Sights</h1>
-                <p>Discover the island's rich cultural history as an important trade or spice centre</p>
-                <h2>Awesome Activities</h1>
-                    <p>Whether it's diving, water sports or wildlife that takes your fancy, Zanzibar offers it all </p>
-    </section>
+    <div class="container-wrapper">
+        <div class="container highlights-container">
+            <section class="highlights ">
+                <div class="row">
+                    <div class="col-12 section-header">
+                        <h1>Highlights</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <div class="highlights-media">
+                            <div class="d-none d-sm-block">
+                                <img src="" class="rounded-circle mr-3 height=100 width=100">
+                            </div>
+                            <div class="highlights-text">
+                                <blockquote class="blockquote">
+                                    <h2>Beautiful Beaches</h1>
+                                        <p>Idyllic white powdered sands lapped by the warm turquoise waters of the Indian Ocean provide the perfect place to relax and soak up the sun.</p>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="highlights-media">
+                            <div class="d-none d-sm-block">
+                                <img src="" class="rounded-circle mr-3 height=100 width=100">
+                            </div>
+                            <div class="highlights-text">
+                                <blockquote class="blockquote">
+                                    <h2>Stunning Sights</h1>
+                                        <p>Discover the island's rich cultural history as an important trade or spice centre</p>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="highlights-media">
+                            <div class="d-none d-sm-block">
+                                <img src="" class="rounded-circle mr-3 height=100 width=100">
+                            </div>
+                            <div class="highlights-text">
+                                <blockquote class="blockquote">
+                                    <h2>Awesome Activities</h1>
+                                        <p>Whether it's diving, water sports or wildlife that takes your fancy, Zanzibar offers it all </p>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    
     <!--********/.HIGHLIGHTS********-->
 
     <!--********FOOTER********-->
     <footer class="container-fluid">
         <div class="row">
             <div class="col-md-4">
-                <h5>Experience Zanzibar</h5> 
+                <h5>Experience Zanzibar</h5>
                 <ul>
                     <li>
                         <a href="mailto:">About Us</a>
@@ -175,7 +224,7 @@
         </div>
         <div class="row">
             <div class="col">
-                <p>&copy; 2019 Experience Zanzibar Ltd.</p> 
+                <p>&copy; 2019 Experience Zanzibar Ltd.</p>
             </div>
         </div>
     </footer>

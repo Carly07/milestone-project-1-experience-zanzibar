@@ -4,14 +4,21 @@ body {
 
 /*Navbar*/
 
-.navbar-brand {
-    font-weight: bold;
-    letter-spacing: 4px;
-}
-
 .navbar {
     text-transform: uppercase;
-    letter-spacing: 2px;
+}
+
+@media (min-width: 576px) {
+    .navbar-brand {
+        font-weight: bold;
+        letter-spacing: 4px;
+    }
+}
+
+@media (min-width: 576px) {
+    .navbar-nav li a {
+        letter-spacing: 2px;
+    }
 }
 
 .navbar-text {

@@ -6,6 +6,7 @@ body {
 
 .navbar {
     text-transform: uppercase;
+    
 }
 
 @media (min-width: 576px) {
@@ -26,6 +27,18 @@ body {
 }
 
 /*Carousel*/
+
+#landing-slideshow {
+   
+}
+
+@media (min-width: 576px) {
+    .carousel-inner .carousel-item {
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+    }
+}
 
 /*Containers*/
 

@@ -6,7 +6,10 @@ body {
 
 .navbar {
     text-transform: uppercase;
-    
+}
+
+.navbar-nav li a:hover {
+    font-weight: bold;
 }
 
 @media (min-width: 576px) {
@@ -14,9 +17,6 @@ body {
         font-weight: bold;
         letter-spacing: 4px;
     }
-}
-
-@media (min-width: 576px) {
     .navbar-nav li a {
         letter-spacing: 2px;
     }
@@ -24,6 +24,11 @@ body {
 
 .navbar-text {
     text-transform: none;
+}
+
+.navbar-toggler:hover {
+    border-style: none;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 /*Carousel*/
@@ -48,3 +53,4 @@ body {
     font-weight: bold;
     border-radius: 30px;
 }
+

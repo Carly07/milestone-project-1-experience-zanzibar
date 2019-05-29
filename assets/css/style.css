@@ -2,7 +2,7 @@ body {
     font-family: 'Assistant', sans-serif;
 }
 
-/*Navbar*/
+/*---------Navbar----------*/
 
 .navbar {
     text-transform: uppercase;
@@ -31,7 +31,7 @@ body {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
-/*Carousel*/
+/*----------Carousel-----------*/
 
 #landing-slideshow {}
 
@@ -43,7 +43,7 @@ body {
     }
 }
 
-/*Containers*/
+/*--------Containers---------*/
 
 .container-wrapper {
     padding: 50px;
@@ -59,7 +59,7 @@ body {
 }
 
 
-/*Section Headers*/
+/*-------Section Headers--------*/
 
 .section-header {
     text-align: center;
@@ -75,25 +75,41 @@ body {
     font-size: 18px;
 }
 
-/*Section content*/
+/*-------Section content-------*/
 
-.blockquote {
+.highlights-media {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.highlights-media i {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+
+.highlights-text {
     text-align: center;
     font-size: 18px;
 }
 
-.blockquote h4 {
+.highlights-text h4 {
     text-transform: uppercase;
 }
 
-/*Buttons*/
+/*------------Buttons-----------*/
 
 .btn {
     font-weight: bold;
     border-radius: 30px;
 }
 
-/*Footer*/
+/*------------Footer------------*/
 
 footer {
     margin-left: 0px;

@@ -33,12 +33,11 @@ body {
 
 /*----------Carousel-----------*/
 
-#landing-slideshow {}
+
 
 @media (min-width: 576px) {
-    .carousel-inner .carousel-item {
-        width: 100vw;
-        height: 100vh;
+    .carousel-inner .carousel-item img {
+        background-size: cover;
         margin: 0;
     }
 }

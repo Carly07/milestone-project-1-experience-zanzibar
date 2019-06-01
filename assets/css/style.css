@@ -33,8 +33,6 @@ body {
 
 /*----------Carousel-----------*/
 
-
-
 @media (min-width: 576px) {
     .carousel-inner .carousel-item img {
         background-size: cover;
@@ -45,8 +43,16 @@ body {
 /*--------Containers---------*/
 
 .container-wrapper {
-    padding: 50px;
+    padding: 50px 25px 50px 25px;
+    text-align: justify;
 }
+
+@media (min-width: 576px) {
+    .container-wrapper {
+        padding: 50px;
+    }
+}
+
 
 .container-wrapper--white {
     color: #6c757d;
@@ -64,6 +70,7 @@ body {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
+    padding-bottom: 20px;
 }
 
 .overview .section-header {
@@ -75,6 +82,9 @@ body {
 }
 
 /*-------Section content-------*/
+.highlights .col-md-4 {
+    padding-bottom: 20px;
+}
 
 .highlights-media {
     text-align: center;
@@ -99,6 +109,7 @@ body {
 
 .highlights-text h4 {
     text-transform: uppercase;
+    padding-bottom: 10px;
 }
 
 /*------------Buttons-----------*/
@@ -158,8 +169,8 @@ footer ul li a:hover {
 }
 
 .footer-col {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 35px;
+    padding-right: 35px;
 }
 
 .social-links li a i {

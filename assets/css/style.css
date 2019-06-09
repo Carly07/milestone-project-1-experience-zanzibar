@@ -118,12 +118,62 @@ body {
     padding-bottom: 10px;
 }
 
+/*------------Cards-----------*/
+
+.card {
+    border: none;
+}
+
+.card i {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: transparent;
+    margin-bottom: 10px;
+}
+
+.card-title {
+    text-transform: uppercase;
+}
+
+@media (min-width: 576px) {
+    .card {
+        height: 28em;
+    }
+    .card-img-top {
+        height: 14em;
+    }
+    .card-body {
+        height:  14em;
+    }
+    .card-title {
+        padding-bottom: 15px;
+    }
+    .card-text {
+        height: 100px; 
+    }
+}
+
 /*------------Buttons-----------*/
 
 .btn {
     font-weight: bold;
     border-radius: 30px;
 }
+
+.highlights-btn {
+    margin-top: 15px;
+
+}
+
+.highlights-btn:hover {
+    color: #6c757d;
+}
+
+
 
 /*------------Footer------------*/
 

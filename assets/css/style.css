@@ -33,6 +33,13 @@ body {
 
 /*----------Carousel-----------*/
 
+#landing-slideshow {
+    margin: 0px auto;
+    background-color: transparent;
+    overflow: hidden;
+    height: 700px;
+}
+
 .carousel-item {
     transition: transform 0.5s ease-in-out;
     -moz-transition: transform 0.5s ease-in-out;
@@ -40,9 +47,14 @@ body {
     -o-transition: transform 0.5s ease-in-out;
 }
 
+.carousel-inner .carousel-item img {
+    
+}
+
 @media (min-width: 576px) {
     .carousel-inner .carousel-item img {
-        background-size: cover;
+        max-height: 100%;
+        max-width: 100%;
         margin: 0;
     }
 }

@@ -33,7 +33,6 @@ body {
 
 /*----------Carousel-----------*/
 
-
 .carousel-item {
     transition: transform 0.5s ease-in-out;
     -moz-transition: transform 0.5s ease-in-out;
@@ -145,6 +144,7 @@ body {
     text-transform: uppercase;
 }
 
+<<<<<<< HEAD
 @media (min-width: 768px) {
     .card {
         align-items: center;
@@ -174,7 +174,6 @@ body {
 
 .highlights-btn {
     margin-top: 10px;
-
 }
 
 .highlights-btn:hover {

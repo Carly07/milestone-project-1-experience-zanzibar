@@ -194,6 +194,7 @@ body {
 
 .modal-title {
     text-transform: uppercase;
+    color: rgba(0,0,0,.9);
     font-weight: bolder;
     letter-spacing: 4px;
 }

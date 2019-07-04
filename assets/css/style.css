@@ -144,23 +144,23 @@ body {
     text-transform: uppercase;
 }
 
-<<<<<<< HEAD
 @media (min-width: 768px) {
     .card {
         align-items: center;
         height: 30em;
     }
     .card-img-top {
-        height: 10em;
+        height: 13em;
     }
     .card-body {
-        height:  20em;
+        height:  17em;
         line-height: 22px;
     }
     .card-title {
         padding-bottom: 15px;
     }
     .card-text {
+        margin-top: 5px;
         height: 160px; 
     }
 }
@@ -180,6 +180,20 @@ body {
     color: #6c757d;
 }
 
+.submit-btn {
+    float: right;
+}
+
+/*------------Modal-----------*/
+
+.modal-dialog {
+    background-color: #fff;
+    color: #6c757d;
+}
+
+.modal-title {
+    text-transform: uppercase;
+}
 
 
 /*------------Footer------------*/

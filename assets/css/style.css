@@ -74,10 +74,20 @@ body {
     color: #fff;
 }
 
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
 .container-wrapper--map {
-    padding-top: 40px;
-    padding-bottom: 40px;
     text-align: center;
+}
+
+@media (min-width: 1075px) {
+    .container-wrapper--map {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
 }
 
 /*-------Section Headers--------*/
@@ -173,8 +183,6 @@ body {
 
 /*------------Map-----------*/
 
-
-
 /*------------Buttons-----------*/
 
 .btn {
@@ -204,7 +212,7 @@ body {
 
 .modal-title {
     text-transform: uppercase;
-    color: rgba(0,0,0,.9);
+    color: rgba(0, 0, 0, .9);
     font-weight: bolder;
     letter-spacing: 4px;
 }

@@ -40,7 +40,7 @@
         </div>
 
     </nav>
-    
+
     <!--********/.NAVBAR********-->
 
     <!--********CAROUSEL********-->
@@ -63,13 +63,13 @@
 
         <div class="carousel-inner" role="listbox">
             <div class="carousel-item active" data-interval="7000">
-                <img src="assets/media/zanzibar-slide-one.jpg" class="d-block h-100 w-100" alt="First slide">
+                <img src="assets/media/zanzibar-slide-one.jpg" class="d-block w-100" alt="First slide">
             </div>
             <div class="carousel-item" data-interval="7000">
-                <img src="assets/media/zanzibar-slide-two.jpg" class="d-block h-100 w-100" alt="Second slide">
+                <img src="assets/media/zanzibar-slide-two.jpg" class="d-block w-100" alt="Second slide">
             </div>
             <div class="carousel-item" data-interval="7000">
-                <img src="assets/media/zanzibar-slide-three.jpg" class="d-block h-100 w-100" alt="Third slide">
+                <img src="assets/media/zanzibar-slide-three.jpg" class="d-block w-100" alt="Third slide">
             </div>
         </div>
 
@@ -107,8 +107,8 @@
                     <div class="col-12">
                         <p>One of the worlds great cultural crossroads, where Africa meets Arabia, Zanzibar is an archipelago of historic Indian Ocean islands awash with atmosphere, intrigue and idyllic beach experiences.</p>
 
-                        <p>It is located about 25 miles from the Tanzanian coast, and 6° south of the equator. Zanzibar Island (known locally as Unguja, but as Zanzibar internationally) is 60 miles long and 20 miles wide, occupying a total area of approximately
-                            650 square miles. </p>
+                        <p>The main island, known locally as Unguja but as Zanzibar internationally, is located about 25 miles from the Tanzanian coast and 6° south of the equator. Zanzibar Island is 60 miles long and 20 miles wide, occupying a total area
+                            of approximately 650 square miles.</p>
 
                         <p>Zanzibar’s local people are an incredible mixture of ethnic backgrounds, indicative of her colourful history. Islam is the dominant religion, and practiced by most Zanzibaris, although there are also followers of Christianity and
                             Hinduism. Population is estimated at 800,000, with the largest concentration being Zanzibar City which has approximately 100,000 inhabitants. Zanzibaris speak Swahili (known locally as Kiswahili), a language which is spoken
@@ -183,6 +183,14 @@
 
     <!--********/.HIGHLIGHTS********-->
 
+    <!--********MAP OF ZANZIBAR********-->
+
+    <div class="container-fluid container-wrapper--map">
+        <img src="assets/media/archipelago-map.jpg" class="img-fluid max-width: 100%" alt="Responsive image">
+    </div>
+
+    <!--********/.MAP OF ZANZIBAR********-->
+
     <!--********ASK A QUESTION MODAL********-->
 
     <div class="modal" tabindex="-1" role="dialog" id="AskQuestionModal">
@@ -198,10 +206,10 @@
                     <p>Your questions answered within 24hrs!</p>
                     <form>
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Your name">
+                            <input type="text" class="form-control" placeholder="Your name" required>
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Email address">
+                            <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Email address" required>
                         </div>
                         <div class="form-group">
                             <select class="custom-select">
@@ -445,10 +453,10 @@
                                 <option value="Yugoslavia">Yugoslavia</option>
                                 <option value="Zambia">Zambia</option>
                                 <option value="Zimbabwe">Zimbabwe</option>
-                            </select>
+                             required</select>
                         </div>
                         <div class="form-group">
-                            <textarea class="form-control" placeholder="Type your question here..." style="height:200px"></textarea>
+                            <textarea class="form-control" placeholder="Type your question here..." rows="6" required></textarea>
                         </div>
                         <button type="submit" class="btn btn-outline-secondary submit-btn">Submit</button>
                     </form>

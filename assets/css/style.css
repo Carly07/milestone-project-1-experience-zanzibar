@@ -74,6 +74,12 @@ body {
     color: #fff;
 }
 
+.container-wrapper--map {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
 /*-------Section Headers--------*/
 
 .section-header {
@@ -164,6 +170,10 @@ body {
         height: 160px;
     }
 }
+
+/*------------Map-----------*/
+
+
 
 /*------------Buttons-----------*/
 

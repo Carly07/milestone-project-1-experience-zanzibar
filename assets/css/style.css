@@ -107,7 +107,7 @@ body {
     font-size: 18px;
 }
 
-/*-------Section content-------*/
+/*-------Highlights-------*/
 
 .highlights .col-md-4 {
     padding-bottom: 20px;
@@ -139,7 +139,7 @@ body {
     padding-bottom: 10px;
 }
 
-/*------------Cards-----------*/
+/*------------Highlights Cards-----------*/
 
 .card {
     border: none;
@@ -181,7 +181,23 @@ body {
     }
 }
 
-/*------------Map-----------*/
+/*------------Places Jumbotron-----------*/
+
+#places-jumbotron {
+    height: 85vh;
+    background-attachment: fixed;
+    background-image: url('../media/Zanzibar.jpg');
+    background-position: top;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+#places-head {
+    color: #fff;
+    text-transform: uppercase;
+}
 
 /*------------Buttons-----------*/
 
@@ -202,7 +218,7 @@ body {
     float: right;
 }
 
-/*------------Modal-----------*/
+/*------------Contact Modal-----------*/
 
 .modal-dialog {
     background-color: #fff;

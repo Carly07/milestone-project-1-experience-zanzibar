@@ -166,11 +166,16 @@ body {
         height: 30em;
     }
     .card-img-top {
-        height: 13em;
+        height: 11em;
     }
     .card-body {
-        height: 17em;
+        height: 15em;
         line-height: 22px;
+    }
+    .card-footer {
+        height: 4em;
+        background-color: transparent;
+        border-top: none;
     }
     .card-title {
         padding-bottom: 15px;
@@ -205,8 +210,10 @@ body {
     padding-bottom: 50px;
 }
 
-.hotel-text {
+@media (min-width: 576px) {
+    .hotel-text {
     padding-right: 50px;
+}
 }
 
 .hotel-text h5 {

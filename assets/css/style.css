@@ -199,6 +199,27 @@ body {
     text-transform: uppercase;
 }
 
+/*------------Hotels-----------*/
+
+.hotel-row {
+    padding-bottom: 50px;
+}
+
+.hotel-text {
+    padding-right: 50px;
+}
+
+.hotel-text h5 {
+    padding-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.hotel-video {
+    padding: 20px;
+}
+
 /*------------Buttons-----------*/
 
 .btn {

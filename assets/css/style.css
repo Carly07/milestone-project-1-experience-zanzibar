@@ -43,7 +43,7 @@ body {
 
 @media (min-width: 992px) {
     .carousel-inner .carousel-item img {
-        max-height: 95vh;
+        max-height: 90vh;
         max-width: 100vw;
         margin: 0;
     }
@@ -74,6 +74,15 @@ body {
     vertical-align: super;
     text-align: left;
 }
+
+.carousel-caption h2 {
+    padding-top: 40px;
+    display: table-cell;
+    vertical-align: super;
+    text-align: left;
+    color: #fff;
+}
+
 
 /*--------Containers---------*/
 
@@ -129,7 +138,7 @@ body {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 .overview .section-header {
@@ -219,10 +228,13 @@ body {
     }
 }
 
-/*------------Places Jumbotron-----------*/
+/*------------Jumbotrons-----------*/
+.jumbotron {
+    margin-bottom: 0px;
+}
 
 #places-jumbotron {
-    height: 85vh;
+    height: 95vh;
     background-attachment: fixed;
     background-image: url('../media/Zanzibar.jpg');
     background-position: top;
@@ -231,6 +243,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
 }
+
 
 /*------------Hotels-----------*/
 

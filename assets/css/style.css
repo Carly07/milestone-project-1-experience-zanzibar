@@ -49,6 +49,32 @@ body {
     }
 }
 
+.caption-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.carousel-caption {
+    position: absolute;
+    z-index: 1;
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-caption h1 {
+    padding-top: 40px;
+    display: table-cell;
+    vertical-align: super;
+    text-align: left;
+}
+
 /*--------Containers---------*/
 
 .container-wrapper {
@@ -88,6 +114,13 @@ body {
         padding-top: 40px;
         padding-bottom: 40px;
     }
+}
+
+/*-------Page Headers--------*/
+
+#page-head {
+    color: #fff;
+    text-transform: uppercase;
 }
 
 /*-------Section Headers--------*/
@@ -199,11 +232,6 @@ body {
     -o-background-size: cover;
 }
 
-#places-head {
-    color: #fff;
-    text-transform: uppercase;
-}
-
 /*------------Hotels-----------*/
 
 .hotel-row {
@@ -212,8 +240,8 @@ body {
 
 @media (min-width: 576px) {
     .hotel-text {
-    padding-right: 50px;
-}
+        padding-right: 50px;
+    }
 }
 
 .hotel-text h5 {

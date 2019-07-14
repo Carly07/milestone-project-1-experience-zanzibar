@@ -131,6 +131,11 @@ body {
     padding-left: 0px;
 }
 
+.hotels-container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
 /*-------Page Headers--------*/
 
 #page-head {
@@ -272,7 +277,12 @@ body {
 }
 
 .hotel-video {
-    padding: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.hotel-video iframe {
+    width: 240px;
 }
 
 /*------------Buttons-----------*/

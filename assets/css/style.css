@@ -126,6 +126,10 @@ body {
     }
 }
 
+.overview-container {
+    line-height: 32px;
+}
+
 .gallery-container {
     padding-right: 0px;
     padding-left: 0px;
@@ -159,6 +163,16 @@ body {
 .overview p {
     font-size: 18px;
 }
+
+/*-------Intro Paragraphs--------*/
+
+.intro-paragraph {
+    font-size: 22px !important;
+    line-height: 40px;
+    letter-spacing: 1px;
+}
+
+
 
 /*-------Highlights-------*/
 
@@ -243,12 +257,8 @@ body {
 
 .jumbotron {
     margin-bottom: 0px;
-}
-
-#places-jumbotron {
     height: 95vh;
     background-attachment: fixed;
-    background-image: url('../media/Zanzibar.jpg');
     background-position: top;
     background-size: cover;
     -webkit-background-size: cover;
@@ -256,6 +266,13 @@ body {
     -o-background-size: cover;
 }
 
+#places-jumbotron {
+    background-image: url('../media/Zanzibar.jpg');
+}
+
+#sights-jumbotron {
+    background-image: url('../media/sights-stone-town.jpg');
+}
 
 /*------------Hotels-----------*/
 

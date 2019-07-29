@@ -208,11 +208,11 @@ body {
 
 /*------------Highlights Cards-----------*/
 
-.card {
+.highlights-card {
     border: none;
 }
 
-.card i {
+.highlights-card i {
     display: inline-block;
     width: 90px;
     height: 90px;
@@ -233,24 +233,24 @@ body {
 }
 
 @media (min-width: 768px) {
-    .card {
+    .highlights-card {
         align-items: center;
         height: 30em;
     }
     .card-img-top {
         height: 11em;
     }
-    .card-body {
+    .highlights-card.card-body {
         height: 15em;
         line-height: 22px;
     }
-    .card-footer {
+    .highlights-card.card-footer {
         height: 4em;
     }
-    .card-title {
+    .highlights-card.card-title {
         padding-bottom: 15px;
     }
-    .card-text {
+    .highlights-card.card-text {
         margin-top: 5px;
         height: 160px;
     }

@@ -256,6 +256,33 @@ body {
     }
 }
 
+/*------------Sights Cards-----------*/
+
+.sights-col {
+    padding: 10px;
+}
+
+.sights-img {
+    padding-right: 0;
+}
+
+.sights-text {
+    padding: 0;
+}
+
+.sights-body {
+    padding: 10px;
+    text-align: left;
+}
+
+.sights-title {
+    line-height: 18px;
+}
+
+.sights-link {
+    font-size: 14px;
+}
+
 /*------------Jumbotrons-----------*/
 
 .jumbotron {

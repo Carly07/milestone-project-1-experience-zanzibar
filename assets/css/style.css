@@ -258,222 +258,216 @@ body {
 
 /*------------Sights Cards-----------*/
 
+@media (min-width: 576px) {
+    .sights-col {
+        padding: 10px;
+    }
 
-.sights-col {
-    padding: 10px;
-}
+    .sights-img {
+        padding-right: 0;
+    }
 
-.sights-img {
-    padding-right: 0;
-}
+    .sights-text {
+        padding: 0;
+    }
 
-.sights-text {
-    padding: 0;
-}
+    .sights-body {
+        padding: 10px 13px 10px 10px;
+        text-align: left;
+    }
 
-.sights-body {
-    padding: 12px;
-    text-align: left;
-}
+    .sights-title {
+        line-height: 17px;
+        margin-bottom: 10px;
+    }
 
-.sights-title {
-    line-height: 18px;
-}
-
-.card-subtitle {
-    margin-bottom: 10px;
+    .card-subtitle {
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
 }
 
 .sights-btn {
-    font-size: 14px;
-    color: #6c757d;
-    border: none;
-    padding: 0;
-}
+        font-size: 12px;
+        color: #6c757d;
+        border: none;
+        padding: 0;
+    }
 
 .sights-btn:hover {
-    font-size: 16px;
-    color: #6c757d;
-}
+        font-size: 16px;
+        color: #6c757d;
+    }
 
 .sights-btn:focus {
-    outline: none;
-    box-shadow: none;
-} 
-
-/*------------Jumbotrons-----------*/
-
-.jumbotron {
-    margin-bottom: 0px;
-    padding-top: 1rem;
-    height: 95vh;
-    background-attachment: fixed;
-    background-position: top;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-}
-
-#places-jumbotron {
-    background-image: url('../media/Zanzibar.jpg');
-}
-
-#sights-jumbotron {
-    background-image: url('../media/sights-stone-town.jpg');
-}
-
-@media only screen 
-        and (min-device-width: 375px) 
-        and (max-device-width: 812px) 
-        and (webkit-min-device-pixel-ratio: 3) 
-        and (orientation: landscape) {
-            .jumbotron {
-                padding-top: 1rem !important;
-            }
-}
-
-/*------------Hotels-----------*/
-
-.hotel-row {
-    padding-bottom: 50px;
-}
-
-@media (min-width: 576px) {
-    .hotel-text {
-        padding-right: 50px;
+        outline: none;
+        box-shadow: none;
     }
-}
 
-.hotel-text h5 {
-    padding-bottom: 20px;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align: left;
-}
-
-.hotel-video {
-    padding-right: 15px;
-    padding-left: 15px;
-}
-
-.hotel-video iframe {
-    width: 240px;
-}
-
-/*------------Buttons-----------*/
-
-.btn {
-    font-weight: bold;
-    border-radius: 30px;
-}
-
-.highlights-btn {
-    margin-top: 10px;
-}
-
-.highlights-btn:hover {
-    color: #6c757d;
-}
-
-.submit-btn {
-    float: right;
-}
-
-/*------------Contact Modal-----------*/
-
-.modal-dialog {
-    background-color: #fff;
-    color: #6c757d;
-    border-radius: 7px;
-}
-
-.modal-title {
-    text-transform: uppercase;
-    color: rgba(0, 0, 0, .9);
-    font-weight: bolder;
-    letter-spacing: 4px;
-}
-
-.modal-body p {
-    font-weight: bold;
-    letter-spacing: 1px;
-}
-
-/*------------Footer------------*/
-
-footer {
-    margin-left: 0px;
-    padding: 30px 15px 0px 15px;
-    background-color: #f8f9fa;
-    color: rgba(0, 0, 0, .5);
-}
-
-.footer-row {
-    text-align: center;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-@media (min-width: 768px) {
-    .footer-row-cols {
-        width: auto;
-        margin-top: auto;
-        text-align: justify;
+    /*------------Jumbotrons-----------*/
+    .jumbotron {
+        margin-bottom: 0px;
+        padding-top: 1rem;
+        height: 95vh;
+        background-attachment: fixed;
+        background-position: top;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
     }
-}
 
-.footer-row-cols h6 {
-    text-transform: uppercase;
-    font-weight: bold;
-    margin-bottom: 15px;
-}
+    #places-jumbotron {
+        background-image: url('../media/Zanzibar.jpg');
+    }
 
-.footer-row-cols ul {
-    list-style-type: none;
-    padding-left: 0px;
-}
+    #sights-jumbotron {
+        background-image: url('../media/sights-stone-town.jpg');
+    }
 
-.footer-row-cols li a {
-    font-size: small;
-    color: rgba(0, 0, 0, .5);
-}
+    @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+        .jumbotron {
+            padding-top: 1rem !important;
+        }
+    }
 
-footer ul li a:hover {
-    color: rgba(0, 0, 0, .5);
-    text-decoration: none;
-    font-weight: bold;
-    transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-}
+    /*------------Hotels-----------*/
+    .hotel-row {
+        padding-bottom: 50px;
+    }
 
-.footer-col {
-    padding-left: 35px;
-    padding-right: 35px;
-}
+    @media (min-width: 576px) {
+        .hotel-text {
+            padding-right: 50px;
+        }
+    }
 
-.social-links li a i {
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 25px;
-    margin-right: 5px;
-    display: block;
-}
+    .hotel-text h5 {
+        padding-bottom: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: left;
+    }
 
-.social-links li a i:hover {
-    font-weight: bold;
-    transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-}
+    .hotel-video {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
 
-.copyright-col {
-    text-align: center;
-}
+    .hotel-video iframe {
+        width: 240px;
+    }
 
-.copyright-col p {
-    font-size: smaller;
-}
+    /*------------Buttons-----------*/
+    .btn {
+        font-weight: bold;
+        border-radius: 30px;
+    }
+
+    .highlights-btn {
+        margin-top: 10px;
+    }
+
+    .highlights-btn:hover {
+        color: #6c757d;
+    }
+
+    .submit-btn {
+        float: right;
+    }
+
+    /*------------Contact Modal-----------*/
+    .modal-dialog {
+        background-color: #fff;
+        color: #6c757d;
+        border-radius: 7px;
+    }
+
+    .modal-title {
+        text-transform: uppercase;
+        color: rgba(0, 0, 0, .9);
+        font-weight: bolder;
+        letter-spacing: 4px;
+    }
+
+    .modal-body p {
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+
+    /*------------Footer------------*/
+    footer {
+        margin-left: 0px;
+        padding: 30px 15px 0px 15px;
+        background-color: #f8f9fa;
+        color: rgba(0, 0, 0, .5);
+    }
+
+    .footer-row {
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    @media (min-width: 768px) {
+        .footer-row-cols {
+            width: auto;
+            margin-top: auto;
+            text-align: justify;
+        }
+    }
+
+    .footer-row-cols h6 {
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    .footer-row-cols ul {
+        list-style-type: none;
+        padding-left: 0px;
+    }
+
+    .footer-row-cols li a {
+        font-size: small;
+        color: rgba(0, 0, 0, .5);
+    }
+
+    footer ul li a:hover {
+        color: rgba(0, 0, 0, .5);
+        text-decoration: none;
+        font-weight: bold;
+        transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+    }
+
+    .footer-col {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .social-links li a i {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 25px;
+        margin-right: 5px;
+        display: block;
+    }
+
+    .social-links li a i:hover {
+        font-weight: bold;
+        transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+    }
+
+    .copyright-col {
+        text-align: center;
+    }
+
+    .copyright-col p {
+        font-size: smaller;
+    }

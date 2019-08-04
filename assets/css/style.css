@@ -324,12 +324,11 @@ body {
     #sights-jumbotron {
         background-image: url('../media/sights-stone-town.jpg');
     }
-
-    @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
-        .jumbotron {
-            padding-top: 1rem !important;
-        }
+    
+    #activities-jumbotron {
+        background-image: url('../media/activities-kitesurfing.jpg');
     }
+
 
     /*------------Hotels-----------*/
     .hotel-row {

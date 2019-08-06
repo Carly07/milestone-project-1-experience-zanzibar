@@ -256,11 +256,21 @@ body {
     }
 }
 
+/*------------Hotels Cards-----------*/
+
 /*------------Sights Cards-----------*/
+
+.sights-card {
+        justify-content: center;
+        align-items: center;
+    }
+
 
 @media (min-width: 576px) {
     .sights-col {
         padding: 10px;
+        justify-content: center;
+        align-items: center;
     }
 
     .sights-img {
@@ -288,185 +298,190 @@ body {
 }
 
 .sights-btn {
-        font-size: 12px;
-        color: #6c757d;
-        border: none;
-        padding: 0;
-    }
+    font-size: 12px;
+    color: #6c757d;
+    border: none;
+    padding: 0;
+}
 
 .sights-btn:hover {
-        font-size: 16px;
-        color: #6c757d;
-    }
+    font-size: 16px;
+    color: #6c757d;
+}
 
 .sights-btn:focus {
-        outline: none;
-        box-shadow: none;
-    }
+    outline: none;
+    box-shadow: none;
+}
 
-    /*------------Jumbotrons-----------*/
-    .jumbotron {
-        margin-bottom: 0px;
-        padding-top: 1rem;
-        height: 95vh;
-        background-attachment: fixed;
-        background-position: top;
-        background-size: cover;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-    }
+/*------------Jumbotrons-----------*/
 
-    #places-jumbotron {
-        background-image: url('../media/Zanzibar.jpg');
-    }
+.jumbotron {
+    margin-bottom: 0px;
+    padding-top: 1rem;
+    height: 95vh;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
 
-    #sights-jumbotron {
-        background-image: url('../media/sights-stone-town.jpg');
-    }
-    
-    #activities-jumbotron {
-        background-image: url('../media/activities-kitesurfing.jpg');
-    }
+#places-jumbotron {
+    background-image: url('../media/Zanzibar.jpg');
+}
+
+#sights-jumbotron {
+    background-image: url('../media/sights-stone-town.jpg');
+}
+
+#activities-jumbotron {
+    background-image: url('../media/activities-kitesurfing.jpg');
+}
 
 
-    /*------------Hotels-----------*/
-    .hotel-row {
-        padding-bottom: 50px;
-    }
+/*------------Hotels-----------*/
 
-    @media (min-width: 576px) {
-        .hotel-text {
-            padding-right: 50px;
-        }
-    }
+.hotel-row {
+    padding-bottom: 50px;
+}
 
-    .hotel-text h5 {
-        padding-bottom: 20px;
-        font-weight: bold;
-        text-transform: uppercase;
-        text-align: left;
+@media (min-width: 576px) {
+    .hotel-text {
+        padding-right: 50px;
     }
+}
 
-    .hotel-video {
-        padding-right: 15px;
-        padding-left: 15px;
-    }
+.hotel-text h5 {
+    padding-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+}
 
-    .hotel-video iframe {
-        width: 240px;
-    }
+.hotel-video {
+    padding-right: 15px;
+    padding-left: 15px;
+}
 
-    /*------------Buttons-----------*/
-    .btn {
-        font-weight: bold;
-        border-radius: 30px;
-    }
+.hotel-video iframe {
+    width: 240px;
+}
 
-    .highlights-btn {
-        margin-top: 10px;
-    }
+/*------------Buttons-----------*/
 
-    .highlights-btn:hover {
-        color: #6c757d;
-    }
+.btn {
+    font-weight: bold;
+    border-radius: 30px;
+}
 
-    .submit-btn {
-        float: right;
-    }
+.highlights-btn {
+    margin-top: 10px;
+}
 
-    /*------------Contact Modal-----------*/
-    .modal-dialog {
-        background-color: #fff;
-        color: #6c757d;
-        border-radius: 7px;
-    }
+.highlights-btn:hover {
+    color: #6c757d;
+}
 
-    .modal-title {
-        text-transform: uppercase;
-        color: rgba(0, 0, 0, .9);
-        font-weight: bolder;
-        letter-spacing: 4px;
-    }
+.submit-btn {
+    float: right;
+}
 
-    .modal-body p {
-        font-weight: bold;
-        letter-spacing: 1px;
-    }
+/*------------Contact Modal-----------*/
 
-    /*------------Footer------------*/
-    footer {
-        margin-left: 0px;
-        padding: 30px 15px 0px 15px;
-        background-color: #f8f9fa;
-        color: rgba(0, 0, 0, .5);
-    }
+.modal-dialog {
+    background-color: #fff;
+    color: #6c757d;
+    border-radius: 7px;
+}
 
-    .footer-row {
-        text-align: center;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
+.modal-title {
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, .9);
+    font-weight: bolder;
+    letter-spacing: 4px;
+}
 
-    @media (min-width: 768px) {
-        .footer-row-cols {
-            width: auto;
-            margin-top: auto;
-            text-align: justify;
-        }
-    }
+.modal-body p {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
 
-    .footer-row-cols h6 {
-        text-transform: uppercase;
-        font-weight: bold;
-        margin-bottom: 15px;
-    }
+/*------------Footer------------*/
 
-    .footer-row-cols ul {
-        list-style-type: none;
-        padding-left: 0px;
-    }
+footer {
+    margin-left: 0px;
+    padding: 30px 15px 0px 15px;
+    background-color: #f8f9fa;
+    color: rgba(0, 0, 0, .5);
+}
 
-    .footer-row-cols li a {
-        font-size: small;
-        color: rgba(0, 0, 0, .5);
-    }
+.footer-row {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 
-    footer ul li a:hover {
-        color: rgba(0, 0, 0, .5);
-        text-decoration: none;
-        font-weight: bold;
-        transition: all 0.3s ease-in-out;
-        -moz-transition: all 0.3s ease-in-out;
-        -webkit-transition: all 0.3s ease-in-out;
-        -o-transition: all 0.3s ease-in-out;
+@media (min-width: 768px) {
+    .footer-row-cols {
+        width: auto;
+        margin-top: auto;
+        text-align: justify;
     }
+}
 
-    .footer-col {
-        padding-left: 35px;
-        padding-right: 35px;
-    }
+.footer-row-cols h6 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
 
-    .social-links li a i {
-        font-size: 20px;
-        font-weight: 400;
-        line-height: 25px;
-        margin-right: 5px;
-        display: block;
-    }
+.footer-row-cols ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
 
-    .social-links li a i:hover {
-        font-weight: bold;
-        transition: all 0.3s ease-in-out;
-        -moz-transition: all 0.3s ease-in-out;
-        -webkit-transition: all 0.3s ease-in-out;
-        -o-transition: all 0.3s ease-in-out;
-    }
+.footer-row-cols li a {
+    font-size: small;
+    color: rgba(0, 0, 0, .5);
+}
 
-    .copyright-col {
-        text-align: center;
-    }
+footer ul li a:hover {
+    color: rgba(0, 0, 0, .5);
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
 
-    .copyright-col p {
-        font-size: smaller;
-    }
+.footer-col {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.social-links li a i {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-right: 5px;
+    display: block;
+}
+
+.social-links li a i:hover {
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.copyright-col {
+    text-align: center;
+}
+
+.copyright-col p {
+    font-size: smaller;
+}

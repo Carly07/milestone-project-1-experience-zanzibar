@@ -35,10 +35,10 @@ body {
 
 .carousel-item {
     background-size: cover;
-    transition: transform 0.25s ease-in-out;
-    -moz-transition: transform 0.25s ease-in-out;
-    -webkit-transition: transform 0.25s ease-in-out;
-    -o-transition: transform 0.25s ease-in-out;
+    transition: transform 0.5s ease-in-out;
+    -moz-transition: transform 0.5s ease-in-out;
+    -webkit-transition: transform 0.5s ease-in-out;
+    -o-transition: transform 0.5s ease-in-out;
 }
 
 @media (min-width: 992px) {
@@ -138,6 +138,7 @@ body {
 .hotels-container {
     padding-right: 15px;
     padding-left: 15px;
+    text-align: center;
 }
 
 /*-------Page Headers--------*/
@@ -256,13 +257,22 @@ body {
     }
 }
 
-/*------------Hotels Cards-----------*/
-
 /*------------Sights Cards-----------*/
 
 @media (min-width: 576px) {
+    .hotels {
+        display: inline-table;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .sights-card {
+        margin: 20px;
+        text-align: center;
+    }
+    
     .sights-col {
-        padding: 10px;
+        padding: 0px;
         justify-content: center;
         align-items: center;
     }
@@ -287,7 +297,11 @@ body {
 
     .card-subtitle {
         margin-bottom: 5px;
-        font-size: 14px;
+        font-size: 16px;
+    }
+    .card-text {
+        padding-top: 10px;
+        padding-right: 10px;
     }
 }
 
@@ -335,7 +349,7 @@ body {
 }
 
 
-/*------------Hotels-----------*/
+/*------------Hotels
 
 .hotel-row {
     padding-bottom: 50px;
@@ -361,7 +375,7 @@ body {
 
 .hotel-video iframe {
     width: 240px;
-}
+}-----------*/
 
 /*------------Buttons-----------*/
 

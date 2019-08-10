@@ -54,6 +54,7 @@
     <!--********/.JUMBOTRON********-->
 
     <!--********PLANNING OVERVIEW********-->
+    
     <div class="container-wrapper container-wrapper--white">
         <div class="container overview-container">
             <section class="overview ">
@@ -64,26 +65,30 @@
                 </div>
                 <div class="row">
                     <div class="col-12">
-                        <p class="intro-paragraph">Zanzibar offers a range of tours, preserves and activities that focus on the ecological wonders of the island. Visitors can spend time with tortoises, tour a spice plantation, or wander on guided trails through some of Zanzibar's
-                            lush jungle.</p>
+                        <p class="intro-paragraph">Planning a personalised trip can be both an exciting and daunting task. It’s easy to get overwhelmed, especially when you haven’t done something like this before. But whether you are looking to travel and explore Zanzibar or you
+                            simply wish to relax on one of its’ pristine beaches, there are some essential things you need to know to ensure the perfect Zanzibar experience. </p>
 
                         <br>
 
-                        <p>Quite a few Zanzibar activities center around the beach, where those who love water sports will enjoy the excellent scuba diving in offshore reefs. Dolphin lovers will delight in excursions that follow these playful creatures as
-                            they frolic in the sea. There are also Zanzibar tours in traditional dhow boats that show off the island.</p>
-
+                        <p>Check out our What You Need To Know section below and discover the best time to go, understand more about Zanzibar’s history and culture and for practical help with travel and entry requirements. Alternatively, if you can't find what you are looking for 
+                        please send us your questions by clicking on the button below and we will respond within 24hrs.</p>
+                        
+                        <div class="text-center">
+                        <button class="btn btn-outline-secondary btn-lg" data-toggle="modal" data-target="#AskQuestionModal">Ask a Question</button>
+                        </div>
                     </div>
                 </div>
             </section>
         </div>
     </div>
+    
     <!--********/.PLANNING OVERVIEW********-->
 
-    <!--********WHAT YOU NEED TO KNOW********-->
+    <!--********WHAT YOU NEED TO KNOW CARDS********-->
 
     <div class="container-wrapper container-wrapper--grey">
-        <div class="container-fluid sights-container">
-            <section class="sights">
+        <div class="container-fluid planning-container">
+            <section class="planning">
                 <div class="row">
                     <div class="col-12 section-header">
                         <h2>What you need to know</h2>
@@ -91,138 +96,79 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-12 col-md-6 sights-col">
-                        <div class="card sights-card border-secondary mb-3" style="max-width: 700px;">
-                            <div class="row">
-                                <div class="col-sm-5 sights-img">
-                                    <img src="assets/media/activities-diving.jpg" class="card-img" alt="...">
-                                </div>
-                                <div class="col-sm-7 sights-text">
-                                    <div class="card-body sights-body text-secondary">
-                                        <h5 class="card-title sights-title">Local History</h5>
-                                        <h6 class="card-subtitle text-muted">Single Dive | $60</h6>
-                                        <button type="button" class="btn sights-btn" data-toggle="modal" data-target="#SDmodal">Read More</button>
-                                    </div>
-                                </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card planning-card text-secondary border-secondary mb-4 text-center">
+                            <h3><i class="fas fa-landmark"></i></h3>
+                            <div class="card-body planning-body">
+                                <button type="button" class="btn plan-btn" data-toggle="modal" data-target="#historymodal">Local History</button>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 sights-col">
-                        <div class="card sights-card border-secondary mb-3" style="max-width: 700px;">
-                            <div class="row">
-                                <div class="col-sm-5 sights-img">
-                                    <img src="assets/media/activities-snorkeling.jpg" class="card-img" alt="...">
-                                </div>
-                                <div class="col-sm-7 sights-text">
-                                    <div class="card-body sights-body text-secondary">
-                                        <h5 class="card-title sights-title">Etiquette</h5>
-                                        <h6 class="card-subtitle text-muted">Half Day | $25</h6>
-                                        <button type="button" class="btn sights-btn" data-toggle="modal" data-target="#Smodal">Read More</button>
-                                    </div>
-                                </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card planning-card text-secondary border-secondary mb-4 text-center">
+                            <h3><i class="fas fa-user-friends"></i></h3>
+                            <div class="card-body planning-body">
+                                <button type="button" class="btn plan-btn" data-toggle="modal" data-target="#etiquettemodal">Etiquette</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card planning-card text-secondary border-secondary mb-4 text-center">
+                            <h3><i class="fas fa-shield-alt"></i></h3>
+                            <div class="card-body planning-body">
+                                <button type="button" class="btn plan-btn" data-toggle="modal" data-target="#securitymodal">Security Risks</button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 col-md-6 sights-col">
-                        <div class="card sights-card border-secondary mb-3" style="max-width: 700px;">
-                            <div class="row">
-                                <div class="col-sm-5 sights-img">
-                                    <img src="assets/media/activities-kitesurfing2.jpg" class="card-img" alt="...">
-                                </div>
-                                <div class="col-sm-7 sights-text">
-                                    <div class="card-body sights-body text-secondary">
-                                        <h5 class="card-title sights-title">Security Risks</h5>
-                                        <h6 class="card-subtitle text-muted">3hrs beginners intro | $90</h6>
-                                        <button type="button" class="btn sights-btn" data-toggle="modal" data-target="#KSmodal">Read More</button>
-                                    </div>
-                                </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card planning-card text-secondary border-secondary mb-4 text-center">
+                            <h3><i class="fas fa-briefcase-medical"></i></h3>
+                            <div class="card-body planning-body">
+                                <button type="button" class="btn plan-btn" data-toggle="modal" data-target="#healthmodal">Health</button>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 sights-col">
-                        <div class="card sights-card border-secondary mb-3" style="max-width: 700px;">
-                            <div class="row">
-                                <div class="col-sm-5 sights-img">
-                                    <img src="assets/media/activities -dhow.jpg" class="card-img" alt="...">
-                                </div>
-                                <div class="col-sm-7 sights-text">
-                                    <div class="card-body sights-body text-secondary">
-                                        <h5 class="card-title sights-title">Health</h5>
-                                        <h6 class="card-subtitle text-muted">Half Day | $50</h6>
-                                        <button type="button" class="btn sights-btn" data-toggle="modal" data-target="#DSmodal">Read More</button>
-                                    </div>
-                                </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card planning-card text-secondary border-secondary mb-4 text-center">
+                            <h3><i class="far fa-calendar-alt"></i></h3>
+                            <div class="card-body planning-body">
+                                <button type="button" class="btn plan-btn" data-toggle="modal" data-target="#timemodal">Best Time To Go</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card planning-card text-secondary border-secondary mb-4 text-center">
+                            <h3><i class="fas fa-plane-departure"></i></h3>
+                            <div class="card-body planning-body">
+                                <button type="button" class="btn plan-btn" data-toggle="modal" data-target="#flightmodal">Getting There</button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 col-md-6 sights-col">
-                        <div class="card sights-card border-secondary mb-3" style="max-width: 700px;">
-                            <div class="row">
-                                <div class="col-sm-5 sights-img">
-                                    <img src="assets/media/activities-spicetour.jpg" class="card-img" alt="...">
-                                </div>
-                                <div class="col-sm-7 sights-text">
-                                    <div class="card-body sights-body text-secondary">
-                                        <h5 class="card-title sights-title">Best Time To Go</h5>
-                                        <h6 class="card-subtitle text-muted">Half Day | $50</h6>
-                                        <button type="button" class="btn sights-btn" data-toggle="modal" data-target="#SPmodal">Read More</button>
-                                    </div>
-                                </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card planning-card text-secondary border-secondary mb-4 text-center">
+                            <h3><i class="fas fa-passport"></i></h3>
+                            <div class="card-body planning-body">
+                                <button type="button" class="btn plan-btn" data-toggle="modal" data-target="#visamodal">Entry Requirements</button>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 sights-col">
-                        <div class="card sights-card border-secondary mb-3" style="max-width: 700px;">
-                            <div class="row">
-                                <div class="col-sm-5 sights-img">
-                                    <img src="assets/media/activities-jozaniforest.jpg" class="card-img" alt="...">
-                                </div>
-                                <div class="col-sm-7 sights-text">
-                                    <div class="card-body sights-body text-secondary">
-                                        <h5 class="card-title sights-title">Getting There</h5>
-                                        <h6 class="card-subtitle text-muted">Half Day | $50</h6>
-                                        <button type="button" class="btn sights-btn" data-toggle="modal" data-target="#JFmodal">Read More</button>
-                                    </div>
-                                </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card planning-card text-secondary border-secondary mb-4 text-center">
+                            <h3><i class="fas fa-taxi"></i></h3>
+                            <div class="card-body planning-body">
+                                <button type="button" class="btn plan-btn" data-toggle="modal" data-target="#travelmodal">Getting Around</button>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-md-6 sights-col">
-                        <div class="card sights-card border-secondary mb-3" style="max-width: 700px;">
-                            <div class="row">
-                                <div class="col-sm-5 sights-img">
-                                    <img src="assets/media/activities-prisionisland.jpg" class="card-img" alt="...">
-                                </div>
-                                <div class="col-sm-7 sights-text">
-                                    <div class="card-body sights-body text-secondary">
-                                        <h5 class="card-title sights-title">Entry Requirements</h5>
-                                        <h6 class="card-subtitle text-muted">Half Day | $50
-                                            <h6>
-                                                <button type="button" class="btn sights-btn" data-toggle="modal" data-target="#PImodal">Read More</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 sights-col">
-                        <div class="card sights-card border-secondary mb-3" style="max-width: 700px;">
-                            <div class="row">
-                                <div class="col-sm-5 sights-img">
-                                    <img src="assets/media/activities-dolphintour.jpg" class="card-img" alt="...">
-                                </div>
-                                <div class="col-sm-7 sights-text">
-                                    <div class="card-body sights-body text-secondary">
-                                        <h5 class="card-title sights-title">Getting Around</h5>
-                                        <h6 class="card-subtitle text-muted">Approx. 3hr | $20 </h6>
-                                        <button type="button" class="btn sights-btn" data-toggle="modal" data-target="#DTmodal">Read More</button>
-                                    </div>
-                                </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card planning-card text-secondary border-secondary mb-4 text-center">
+                            <h3><i class="fas fa-coins"></i></h3>
+                            <div class="card-body planning-body">
+                                <button type="button" class="btn plan-btn" data-toggle="modal" data-target="#currencymodal">Currency</button>
                             </div>
                         </div>
                     </div>
@@ -231,37 +177,44 @@
         </div>
     </div>
 
-    <!--********/.WHAT YOU NEED TO KNOW********-->
+    <!--********/.WHAT YOU NEED TO KNOW CARDS********-->
 
-    <!--******** MODALS ********-->
-    <!--******** SCUBA DIVING MODAL ********-->
+    <!--******** PLANNING MODALS ********-->
+    
+            <!--******** HISTORY MODAL ********-->
 
-    <div class="modal fade" id="SDmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+    <div class="modal fade" id="historymodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-scrollable" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalScrollableTitle">Scuba Diving</h5>
+                    <h5 class="modal-title" id="exampleModalScrollableTitle">Local History</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
                 </div>
                 <div class="modal-body">
-                    <p>Zanzibar has some of the richest coral reefs in the world with well over 500 different type of marine animals. Due to the warm waters of the Indian ocean the visibility is remarkable and can sometimes go as far as 100 meters. Whether
-                        you are deep sea diving in Zanzibar, a macro diver or a snorkeler, you will find everything that you are looking for in Zanzibar.</p>
+                    <h5>Early Beginnings</h5>
+                    <p>The history of Zanzibar stretches back at least to the start of the first millennium, when Bantu-speaking peoples from the mainland ventured across to the archipelago's many islands. The Periplus of the Erythraean Sea (written for 
+                    sailors by a Greek merchant around AD 60) makes reference to the island of Menouthias, which many historians believe to be Zanzibar. From around the 8th century, Shirazi traders from Persia also began to make their way to East 
+                    Africa, where they established settlements on the islands of Pemba and Unguja (now generally called Zanzibar Island).</p>
 
-                    <p>Head out to Leven bank where you will be treated to sights such as the Barracuda and may even spot some moray eels. And if that is not big enough for you, the humpback whales and sperm whales pass through these waters around September
-                        and October making these months among the best time of year to visit Zanzibar for scuba diving and snorkeling./P>
+                    <h5>Europeans & Omanis</h5>
+                    <p>During the 16th century Zanzibar came under Portuguese control, then at the end of the 17th century under the rule of the Sultan of Oman.</p>
 
-                        <p>All through December up until the month of April is a perfect time to spot the manta rays as well as the largest shark of all, the whale shark. Then there’s Nyange reef near Stone Town where you can capture some spectacular shots.
-                            But these are far from the only places for scuba diving in Zanzibar. Check out Kizimkazi and Hunga along the south coast and Kichafi and Haji along the east coast.</p>
+                    <p>By the early 19th century Oman controlled trade across the archipelago, reaching such a high point that in the 1840s the Sultan of Oman relocated his court from the Persian Gulf to Zanzibar, establishing many of the buildings still 
+                    seen today in the historic quarter of Stone Town.</P>
 
-                        <p>Choosing the best time to go out diving in the beautiful coastal waters of Zanzibar, very much comes down to the tides, water visibility and the winds. There are two major winds that you need to be aware of and these are Kaskazi
-                            or the northern winds which come in from November till March and the southern winds also known as Kusi which comes in during the months of August and July. The calmest seasons happen between the Monsoon and there are two of
-                            them. Since there are rains during April and May, these are not the best times for scuba diving or snorkeling. You want to find seasons that are warm and when the weather is calm. These are from mid-November all through to
-                            January and from June to August.</p>
+                    <p>From the mid-19th century, with increasing European interest in East Africa and the end of the slave trade, Omani rule began to weaken, and in 1890 Zanzibar became part of the British Empire, as a 'protectorate', with Omani sultans 
+                    ostensibly ruling, supervised by British colonial officials..</p>
 
-                        <p>Dive centers generally include all soft gear equipment (mask, fins, snorkel, wetsuits) as well as snacks, fruits and drinking water in the price. One dive typically costs $60 whilst for a double dive (1 day) you can expect to pay
-                            $110.</p>
+                    <p>This arrangement lasted until 10 December 1963, when Zanzibar gained its independence. Just one month later, in January 1964, the sultans were overthrown in a bloody revolution instigated by the Afro-Shirazi Party (ASP), which then 
+                    assumed power.</p>
+
+                    <h5>Union with the Mainland</h5>
+                    <p>On 12 April 1964 Abeid Karume, president of the ASP, signed a declaration of unity with Tanganyika (on the mainland), and the two countries came together as the United Republic of Tanzania.</p>
+                    
+                    <p>Karume was assassinated in 1972 and Aboud Jumbe assumed the presidency of Zanzibar until he resigned in 1984. A succession of leaders followed, culminating in 2000 with the highly controversial election of Aman Abeid Karume, son of 
+                    the first president.</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -270,25 +223,36 @@
         </div>
     </div>
 
-    <!--********/.SCUBA DIVING MODAL ********-->
+        <!--********/.HISTORY MODAL ********-->
+        <!--******** ETIQUETTE MODAL ********-->
 
-    <!--******** SNORKELING MODAL ********-->
-
-    <div class="modal fade" id="Smodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+    <div class="modal fade" id="etiquettemodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-scrollable" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalScrollableTitle">Snorkeling</h5>
+                    <h5 class="modal-title" id="exampleModalScrollableTitle">Etiquette</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
                 </div>
                 <div class="modal-body">
-                    <p>Zanzibar is one of the best spots in Africa for underwater adventures. Tourists flock here to combine a few days of relaxation with scuba diving and snorkelling at the incredibly colourful and diverse reefs that surround the island.
-                        One of the best places for snorkelling is Mnemba Atoll, located north east coast of the Island..</p>
+                    <p>The people of Zanzibar are traditional, mostly rural, and overwhelmingly Muslim, and attitudes are often 
+                    correspondingly conservative. Avoid getting off to a bad start by observing the following tips:</p>
+                    
+                    <h5>Dress appropriately in public</h5>
+                    <p>Locals are deeply offended by revealing clothing. Keep swimwear to the 
+                    beach. In towns and villages women should avoid sleeveless tops, plunging necklines and shorts, while men 
+                    should keep shirts on and avoid shorts that come anywhere near skimpy.</P>
 
-                    <p>Snorkelling in Mnemba Atoll offers you a stunning underwater world with schools of tropical reef fish, turtles, dolphins, nudibranchs and beautiful hard and soft coral formations. Between the snorkelling times you can stay on the boats
-                        and taste fresh seasonal fruits.</P>
+                    <h5>Photography</h5>
+                    <p>Always ask permission before photographing local people.</p>
+
+                    <h5>Mosques</h5>
+                    <p>Do not enter mosques without permission, and then only without shoes.</p>
+
+                    <h5>Ramadan</h5>
+                    <p>During Ramadan take particular care with dress, and show respect by not eating or drinking in 
+                    public places during daylight hours.</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -297,27 +261,33 @@
         </div>
     </div>
 
-    <!--********/.SNORKELING MODAL ********-->
+        <!--********/.ETIQUETTE MODAL ********-->
+        <!--******** SECURITY MODAL ********-->
 
-    <!--******** KITE SURFING MODAL ********-->
-
-    <div class="modal fade" id="KSmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+    <div class="modal fade" id="securitymodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-scrollable" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalScrollableTitle">Kite Surfing</h5>
+                    <h5 class="modal-title" id="exampleModalScrollableTitle">Security Risks</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
                 </div>
                 <div class="modal-body">
-                    <p>Taking Kitesurfing Lessons on Paje Beach in Zanzibar is a great experience. It is the ideal location because reef is far off-shore, after ample flat water that is perfect for beginners and freestylers, whilst the reef itself offers
-                        amazing waves for the more experienced kitesurfer.</p>
-
-                    <p>There are many Kite Centres on Paje beach offering professional, certified kite instructors and lessons to suit all needs, from Beginner to Advanced.</p>
-
-                    <p>The best months for kitesurfing are from mid June until mid October and mid December until mid March when you experience constant winds, averaging around 16 knots, usually increasing towards the end of the day and water temperatures
-                        above 24 degrees so your wetsuit can stay at home.</P>
+                    <h5>Robberies and Muggings</h5>
+                    <p>While Zanzibar is relatively safe, Zanzibar Town does see occasional robberies and muggings. 
+                    <ul>
+                        <li>Keep your money and valuables out of sight (and reach), especially in crowded areas like Darajani Market.</li>
+                        <li>Avoid isolated areas, such as the beaches to the north or south of Stone Town.</li>
+                        <li>At night in Stone Town, especially in the port area, take a taxi or walk in a group.</li>
+                        <li>If you leave Zanzibar Town on the night ferry, take care with your valuables, especially when arriving in Dar es Salaam.</li>
+                        </ul></p>
+                    
+                    <h5>Papasi</h5>
+                    <p>In Zanzibar Town you will undoubtedly come into contact with street touts, known as papasi (street touts; literally, ticks), offering 
+                    to set you up with boat trips, spice tours or a hotel. Some carry false Zanzibar Tourist Corporation identification cards, and lurk around
+                    the ferry port, beach and main shopping streets. Some can be genuinely helpful, others can be downright irritating. If you’re not interested 
+                    in papasi services, explain this firmly and politely. You may have to do it several times.</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -326,36 +296,186 @@
         </div>
     </div>
 
-    <!--********/.KITE SURFING MODAL ********-->
+        <!--********/.SECURITY MODAL ********-->
+        <!--******** HEALTH MODAL ********-->
 
-    <!--******** DHOW SAILING MODAL ********-->
-
-    <div class="modal fade" id="DSmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+    <div class="modal fade" id="healthmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-scrollable" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalScrollableTitle">Dhow Sailing</h5>
+                    <h5 class="modal-title" id="exampleModalScrollableTitle">Health</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
                 </div>
                 <div class="modal-body">
-                    <p>“SUR” is a 60ft (18 metre) Traditional Sailing Dhow located in Zanzibar, Tanzania. She was built entirely out of high quality Indian Teak in India in 1991. Soon after she was built, she sailed to northern Germany where she was converted
-                        into an ocean sailing yacht capable of major ocean crossings. Upon completion of her refit, she sailed around the world and most recently the western Indian Ocean until she arrived in Tanzania where she is now permanently based.</p>
+                    <p>As long as you stay up-to-date with your vaccinations and take basic preventive measures, you’re unlikely to succumb to most of the possible health hazards. While Tanzania has an impressive selection of tropical diseases on offer, 
+                    it’s more likely you’ll get a bout of diarrhoea or a cold than a more exotic malady. The main exception to this is malaria, which is a real risk throughout much of the country. Road accidents are the other main threat to your health. 
+                    Never travel at night, and choose buses or private transport over dalla-dallas (minibuses) to minimise the risk.</p>
 
-                    <p>Charter Options</p>
+                    <h5>Before you go</h5>
 
-                    <p>1. Half day Sand Bank Explorer cruise - Depart from Shangani and sail out to remote tidal sand banks in the vicinity of the Stone Town area. Approximate sailing time to the sand bank is 1 – 1.5 hours. Once there, use our tender boat
-                        to go snorkelling the submerged reefs or head to the tidal sand bank. Enjoy time sun bathing, swimming and snorkelling and return to Stone Town for the end of the trip. Finger food and drinks served on board the boat and on the
-                        sand bank.</p>
+                    <ul><li>Get a check-up from your dentist and your doctor if you have any regular medication or chronic illness, such as high blood pressure or asthma.</li>
 
-                    <p>2. Full day Island Explorer Cruise - Depart from Shangani and enjoy our Zanzibar Traditional Dhow Sailing over to one of the nearby islands of interest, such as Grave Island or Prison Island. Disembark and explore the islands at your
-                        will, then set off again on SUR and head for a remote tidal sand bank frequented by no other. Once there, use the tender for snorkelling the submerged reefs and heading onto the tidal sand bank. Enjoy time sun bathing, swimming
-                        and snorkelling and return to Stone Town for the end of the trip. Finger food, lunch, and drinks served on board the boat and on the sand bank.</p>
+                    <li>Organise spare contact lenses and glasses.</li>
 
-                    <p>3. Sunset Cruise - Depart from Shangani by 15.00 hrs and set sail along the shore of Stone Town. Depending on the weather and wind, sail northward toward Grave Island or southward along the coast enjoying the beautiful evening light.
-                        Return to Stone Town as the sun sets and witness the arrival and departure of commercial Dhows entering or leaving the port area. Listen to the call of prayer over this magical old city, enjoying it all from the luxurious comfort
-                        on board SUR. Disembark by 19.00 hrs.</p>
+                    <li>Get a first-aid and medical kit together; arrange necessary vaccinations.</li>
+                    
+                    <li>Consider registering with the International Association for Medical Advice to Travellers (www.iamat.org), which provides directories of certified 
+                    doctors.</li>
+                    
+                    <li>If you’ll be spending much time in remote areas, consider doing a first-aid course (contact the Red Cross or St John Ambulance) or attending a remote medicine first-aid course, such as that offered by the Royal Geographical Society 
+                    (www.wildernessmedicaltraining.co.uk).</li>
+                    
+                    <li>Carry medications in their original (labelled) containers.</li>
+                    
+                    <li>If carrying syringes or needles, have a physician’s letter documenting their medical necessity.</li>
+                    </ul>
+                    
+                    <h5>Vaccinations</h5>
+                    <p>Regardless of your destination, the World Health Organization (www.who.int/en) recommends that all travellers be covered for the following.</p>
+                    
+                    <ul>
+                        <li>diphtheria</li>
+                        <li>tetanus</li>
+                        <li>measles</li>
+                        <li>mumps</li>
+                        <li>rubella</li>
+                        <li>polio</li>
+                        <li>hepatitis B</li>
+                    </ul>
+                    
+                    <p>According to the Centers for Disease Control and Prevention (www.cdc.gov), the following vaccinations are (also) recommended for Tanzania:</p>
+                    
+                    <ul>
+                        <li>hepatitis A</li>
+                        <li>rabies</li>
+                        <li>typhoid</li>
+                        <li>boosters for tetanus, diphtheria and measles</li>
+                    </ul>
+                    
+                    <h5>Travel Insurance</h5>
+                    <p>Check in advance if your insurance plan will make payments directly to providers or reimburse you later for overseas health expenditures. Most doctors in Tanzania expect payment in cash.</p>
+                    
+                    <p>Ensure that your travel insurance will cover any emergency transport required to get you at least as far as Nairobi (Kenya), or (preferably) all the way home by air and with a medical attendant if necessary. It’s worth taking out a 
+                    temporary membership with the African Medical & Research Foundation's Flying Doctors program (www.flydoc.org) or First Air Responder (www.knightsupport.com/first-air-responder/).</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!--********/.HEALTH MODAL ********-->
+        <!--******** BEST TIME MODAL ********-->
+
+    <div class="modal fade" id="timemodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalScrollableTitle">Best Time To Go</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <p>The best time to visit Zanzibar is from June to October during the cool, dry months of spring. Another popular time to visit this tropical island is from December to February when it’s hot and dry.</p>
+
+                    <p>We don’t recommend visiting Zanzibar during the two rainy seasons, from mid-March to late May and again in November.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!--********/.BEST TIME MODAL ********-->
+        <!--******** GETTING THERE MODAL ********-->
+
+    <div class="modal fade" id="flightmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalScrollableTitle">Getting There</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <p>Most visitors to the Zanzibar Archipelago travel by sea from Dar es Salaam to Zanzibar Town. However, it is possible to fly to Zanzibar International Airport from all airports in Tanzania and other destinations in East Africa, Doha and Muscat.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!--********/.GETTING THERE MODAL ********-->
+        <!--******** ENTRY REQUIREMENTS MODAL ********-->
+
+    <div class="modal fade" id="visamodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalScrollableTitle">Entry Requirements</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <h5>Visa</h5>
+                    <p>All British passport holders need a tourist or business visa to enter Tanzania. You can get one from the <a href="https://tzhc.uk/">Tanzanian
+                    High Commission</a> before you travel. Tanzania has also introduced an ‘e-visas’ system which allows applications to be 
+                    submitted and approved online without the need to visit their High Commission in London.</p>
+                    
+                    <p>It is possible to get a tourist or business visa for a single entry on arrival at main ports of entry to Tanzania, 
+                    but this is subject to the fulfilment of all immigration requirements. You may be asked to provide proof of your return 
+                    journey. You will not be able to get a multiple entry visa on arrival.</p>
+                    
+                    <p>If you are planning to work or volunteer, you will need a valid work permit. Your employer or volunteer organisation 
+                    should arrange this before you travel.</p>
+                    
+                    <h5>Passport Validity</h5>
+                    <p>Your passport should be valid for a minimum period of 6 months from the date of your visa application.</p>
+
+                    <h5>Yellow Fever</h5>
+                    <p>Check whether you need a yellow fever certificate by visiting the National Travel Health Network and Centre’s 
+                    <a href="https://travelhealthpro.org.uk/country/220/tanzania-including-zanzibar#Vaccine_recommendations">TravelHealthPro website</a>.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!--********/.ENTRY REQUIREMENTS MODAL ********-->
+        <!--******** GETTING AROUND MODAL ********-->
+
+    <div class="modal fade" id="travelmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalScrollableTitle">Getting Around</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <p>There are two options: the local dala dalas and taxis. There are also shared buses that leave from Stone Town to the beaches, which you can usually get for USD 10 per person.</p>
+                    
+                    <p>Public transportation/dala dalas: Public transportation is extremely affordable, costing under USD 4, depending on your destination. They are also quite slow as they stop a lot 
+                    on the way, and there usually seems to be no limit to how many people can fit on one bus! Be warned that it’ll probably take some effort to figure out which dala dala to use, 
+                    though the conductors are very helpful.</p>
+                    
+                    <p>Taxis: There are lots of taxis in Stone Town, but from the beach they can be harder to find. It’s always good to ask your hotel for a taxi or find a reliable company to offer you 
+                    transfers. Taking a taxi in Zanzibar is generally safe, but note they’re often not punctual and tend to charge as they wish.</p>
+                    
+                    <p>Walking: Walking is the most efficient way to get around if you are staying in Stone Town! The town is small and safe to walk, as long as you keep an eye out for the fast-moving 
+                    vespas. When you wander a bit further from the more popular, touristy areas, you will find walking very pleasant, too.</p>
 
                 </div>
                 <div class="modal-footer">
@@ -365,59 +485,27 @@
         </div>
     </div>
 
-    <!--********/.DHOW SAILING MODAL ********-->
+        <!--********/.GETTING AROUND MODAL ********-->
+        <!--******** CURRENCY MODAL ********-->
 
-    <!--******** SPICE PLANTATION MODAL ********-->
-
-    <div class="modal fade" id="SPmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+    <div class="modal fade" id="currencymodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-scrollable" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalScrollableTitle">Spice Plantation Tour</h5>
+                    <h5 class="modal-title" id="exampleModalScrollableTitle">Currency</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
                 </div>
                 <div class="modal-body">
-                    <p>A spice tour is a must-do while on the island of Zanzibar, known as the Spice Island. Learn from your guide about its claim to fame during the 19th century as one of the world’s leading producers of spices, such as clove, nutmeg, and
-                        cinnamon. Sample these aromatic treasures at a spice farm and indulge in lunch (own expense) during this 3-hour tour.</p>
-
-                    <p>After pickup from your hotel in the morning, you're driven to a local spice farm for a detailed introduction to the culinary history of Zanzibar, aka Spice Island. Travel into the countryside for about 30 minutes from historical Stone
-                        Town, and observe rural village life in Zanzibar.On arrival, learn about the life cycle and uses of various types of spices, tropical fruits, and root crops while your guide comments on each discovery. You'll have the opportunity
-                        to touch, smell, and taste several spices and fruits during a walking tour of the farm. Hear about farming techniques and uses, then sit down for a farm-fresh lunch (own expense). If you'd like, fresh spices, coffee, tea, soaps,
-                        and more are available for purchase. Your 3-hour tour ends with the drive back to your hotel.</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--********/.SPICE PLANTATION MODAL ********-->
-
-    <!--******** JOZANI FOREST MODAL ********-->
-
-    <div class="modal fade" id="JFmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-scrollable" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalScrollableTitle">Jozani Forest Tour</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-                </div>
-                <div class="modal-body">
-                    <p>Venture into the jungle of Jozani Forest to spot the area's red colobus monkeys as they swing and howl in the trees. Wander down a trail through this protected area and spot some of 50 species of butterflies, 40 types of birds, as
-                        well as a few endangered animals.</p>
-
-                    <p>Your guide meets you at your hotel, and then takes you to Jozani Chwaka Bay National Park, home of Jozani Forest. Walk down a nature trail and observe the vast canopy above, as well as the sub-canopies created by smaller trees and
-                        shrubs. Listen for the songs of some of the island's native birds and keep a lookout for monkeys.
-                    </p>
-
-                    <p>The Zanzibar red colobus monkey, a Jozani Forest resident, has been isolated from its mainland counterparts, producing distinct calls, eating habits, and coat patterns. With hair resembling Einstein's, these fuzzy creatures are easy
-                        to hear as they make their way through the trees. Your guide helps you find the perfect spot for monkey viewing, and you may even get to see other endangered species like the Aders' duiker or the Zanzibar servaline genet. After
-                        exploring the wild side, your host takes you back to your hotel.</p>
+                    
+                    <p>The Tanzanian Shilling is the official currency of Tanzania, but US dollars are also widely accepted in 
+                    tourist areas. Dollar notes printed before 2009 are usually not accepted. You can exchange money at many 
+                    authorised dealers, banks and bureaux de change. Get a receipt after each transaction.</p>
+                    
+                    <p>Most banks in major cities have ATMs, but they are not always reliable and sometimes break down or run 
+                    out of money. To minimise the risk of card cloning, only use ATMs located within the bank. Travellers cheques
+                    are not widely accepted and non-Bank of England sterling notes may be subject to less favourable exchange rates.</p>
 
                 </div>
                 <div class="modal-footer">
@@ -427,76 +515,19 @@
         </div>
     </div>
 
-    <!--********/.JOZANI FOREST MODAL ********-->
+        <!--********/.CURRENCY MODAL ********-->  
+        
+    <!--******** /.PLANNING MODALS ********-->
 
-    <!--******** PRISON ISLAND TOUR MODAL ********-->
 
-    <div class="modal fade" id="PImodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-scrollable" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalScrollableTitle">Prison Island</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-                </div>
-                <div class="modal-body">
-                    <p>Travel to Prison Island, known locally as Changuu, for a tour of this tropical wonderland. The island's most famous inhabitant, a 192-year-old tortoise, wanders the island and may be available for a photo session. After meeting some
-                        friendly reptiles, go for a swim or snorkel in the warm waters.</p>
+    <!--********ZANZIBAR PLAYLIST********-->
 
-                    <p>Your guide greets you in your hotel lobby and takes you to Stone Town, where a boat is waiting for your arrival. As you travel through the crystal-clear sea, learn all about the history of the island, which was never actually used
-                        as a proper prison. When the island comes into view, be sure to look down and spot the sea creatures hanging out in the reef below.</p>
-
-                    <p>Land on the soft, white sand and make your way to the island's jail, which was built in 1893 with the hope of housing prisoners. Break free from jail and discover the island's freewheeling Aldabra giant tortoises, who slowly stroll
-                        across the island in search of tasty vegetation. Prison Island is now home to the only sanctuary dedicated to saving these remarkable creatures, and you have a chance to chat with the foundation's passionate preservationists. Once
-                        you get familiar with the shelled wanderers, reach down and feed them some of their favourite greenery.</p>
-
-                    <p>After making friends with a tortoise, venture over to the beach and grab some snorkel gear. Float above the coral reef to see some of the 400 species of fish, including the rare lionhead cichlid, which call these shallow shores home.
-                        Take some time to relax in the sun before you head back to Zanzibar Island.</p>
-
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--********/.PRISON ISLAND TOUR MODAL ********-->
-
-    <!--******** DOLPHIN TOUR MODAL ********-->
-
-    <div class="modal fade" id="DTmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-scrollable" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalScrollableTitle">Dolphin Tour</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-                </div>
-                <div class="modal-body">
-                    <p>Your adventure starts from the fishermen village of Kizimkazi and you will see a foresight of fishermen at the shore while you are on the motorboat going to view, snorkel and spot some dolphins.</p>
-
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--********/.DOLPHIN TOUR MODAL ********-->
-    <!--******** /.ACTIVITIES MODALS ********-->
-
-    <!--********ACTIVITIES VIDEO********-->
-
-    <div class="container-wrapper container-wrapper--white">
-        <div class="container activities-container">
-            <section class="activities">
+<div class="container-wrapper container-wrapper--white">
+        <div class="container playlist-container">
+            <section class="playlist">
                 <div class="row">
                     <div class="col-12 section-header">
-                        <h2>Kite Surfing</h2>
+                        <h2>Local Music</h2>
                     </div>
                 </div>
                 <div class="row">
@@ -509,6 +540,15 @@
             </section>
         </div>
     </div>
+    
+    <!--********/.ZANZIBAR PLAYLIST********-->
+
+    <!--********JUMBOTRON********-->
+    
+    <div class="jumbotron jumbotron-fluid" id="packing-jumbotron">
+    </div>
+    
+    <!--********/.JUMBOTRON********-->
 
     <!--********ASK A QUESTION MODAL********-->
 
@@ -798,12 +838,6 @@
                     <li>
                         <a data-toggle="modal" data-target="#AskQuestionModal">Contact</a>
                     </li>
-                    <li>
-                        <a href="mailto:">FAQ</a>
-                    </li>
-                    <li>
-                        <a href="mailto:">Blog</a>
-                    </li>
                 </ul>
             </div>
             <div class="col-md-4 footer-col">
@@ -865,4 +899,3 @@
 </body>
 
 </html>
-

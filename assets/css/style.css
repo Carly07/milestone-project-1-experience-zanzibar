@@ -391,6 +391,12 @@ body {
     background-image: url('../media/packing-zanzibar.jpg');
 }
 
+#about-jumbotron {
+    background-image: url('../media/about-zanzibar.jpg');
+    height: 95vh;
+    background-size: cover;
+}
+
 /*------------Buttons-----------*/
 
 .btn {

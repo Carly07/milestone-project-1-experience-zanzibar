@@ -148,6 +148,21 @@ body {
     text-transform: uppercase;
 }
 
+.animatedtext {
+    animation: fadeandscale 1s ease-in;
+    transform-origin: initial; 
+}
+
+@keyframes fadeandscale {
+    from {
+        opacity: 0;
+        transform: scale3d(.75, .75, 1);
+    }
+    to {
+        opacity: 1;
+        transform: scale3d(1, 1, 1);
+    }
+}
 /*-------Section Headers--------*/
 
 .section-header {
@@ -172,8 +187,6 @@ body {
     line-height: 40px;
     letter-spacing: 1px;
 }
-
-
 
 /*-------Highlights-------*/
 
@@ -420,11 +433,11 @@ body {
     color: #6c757d;
     font-size: 1.25rem;
     text-transform: uppercase;
+    transition: color, 1s, ease-in-out;
 }
 
 .plan-btn:hover {
-    font-size: 1.5rem;
-    color: #6c757d;
+    color: #5b5e61;
 }
 
 .plan-btn:focus {
@@ -432,7 +445,7 @@ body {
     box-shadow: none;
 }
 
-/*------------Contact Modal-----------*/
+/*------------Modals-----------*/
 
 .modal-dialog {
     background-color: #fff;

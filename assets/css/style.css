@@ -150,7 +150,7 @@ body {
 
 .animatedtext {
     animation: fadeandscale 1s ease-in;
-    transform-origin: initial; 
+    transform-origin: initial;
 }
 
 @keyframes fadeandscale {
@@ -163,6 +163,7 @@ body {
         transform: scale3d(1, 1, 1);
     }
 }
+
 /*-------Section Headers--------*/
 
 .section-header {
@@ -188,38 +189,6 @@ body {
     letter-spacing: 1px;
 }
 
-/*-------Highlights-------*/
-
-.highlights .col-md-4 {
-    padding-bottom: 20px;
-}
-
-.highlights-media {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.highlights-media i {
-    display: inline-block;
-    width: 90px;
-    height: 90px;
-    line-height: 90px;
-    border: 2px solid white;
-    border-radius: 50%;
-    background-color: transparent;
-    margin-bottom: 10px;
-}
-
-.highlights-text {
-    text-align: center;
-    font-size: 18px;
-}
-
-.highlights-text h4 {
-    text-transform: uppercase;
-    padding-bottom: 10px;
-}
-
 /*------------Highlights Cards-----------*/
 
 .highlights-card {
@@ -237,13 +206,26 @@ body {
     margin-bottom: 10px;
 }
 
-.card-title {
-    text-transform: uppercase;
+.highlights-body {
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
-.card-footer {
+
+.card-header {
     background-color: transparent;
-    border-top: none;
+    border: none;
+    padding-bottom: 0;
+    height: 50px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    text-transform: uppercase;
+    line-height: 17px;
 }
 
 @media (min-width: 768px) {
@@ -270,7 +252,7 @@ body {
     }
 }
 
-/*------------Sights Cards-----------*/
+/*------------ Cards-----------*/
 
 @media (min-width: 576px) {
     .hotels {
@@ -279,33 +261,31 @@ body {
         align-items: center;
     }
 
-    .sights-card {
+    .page-card {
         margin: 20px;
-        text-align: center;
     }
 
-    .sights-col {
+    .card-col {
         padding: 0px;
         justify-content: center;
         align-items: center;
     }
 
-    .sights-img {
-        padding-right: 0;
-    }
-
-    .sights-text {
+    .card-img-col {
         padding: 0;
     }
 
-    .sights-body {
-        padding: 10px 13px 10px 10px;
-        text-align: left;
+    .card-img {
+        padding-right: 0;
     }
 
-    .sights-title {
-        line-height: 17px;
-        margin-bottom: 10px;
+    .card-text-col {
+        padding: 0;
+    }
+
+    .page-card-body {
+        padding: 10px 13px 10px 10px;
+        text-align: left;
     }
 
     .card-subtitle {

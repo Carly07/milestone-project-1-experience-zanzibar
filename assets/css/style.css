@@ -260,6 +260,7 @@ body {
 
 .highlights-card {
     border: none;
+    align-items: center;
 }
 
 .highlights-card i {
@@ -357,6 +358,7 @@ body {
 
 .planning-card {
     border-radius: 20px;
+    align-items: center;
 }
 
 .planning-card h3 {

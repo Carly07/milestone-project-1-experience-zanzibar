@@ -201,45 +201,39 @@ body {
 
 .jumbotron {
     margin-bottom: 0px;
-    padding-top: 1rem;
     background-attachment: fixed;
     background-position: top;
+    height: 95vh;
+    width: auto;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 #places-jumbotron {
     background-image: url('../media/Zanzibar.jpg');
-    height: 95vh;
-    background-size: cover;
 }
 
 #sights-jumbotron {
     background-image: url('../media/sights-stone-town.jpg');
-    height: 95vh;
-    background-size: cover;
 }
 
 #activities-jumbotron {
     background-image: url('../media/activities-kitesurfing.jpg');
-    height: 95vh;
-    background-size: cover;
 }
 
 #planning-jumbotron {
     background-image: url('../media/planning-zanzibar.jpg');
-    height: 95vh;
-    background-size: cover;
 }
 
 #packing-jumbotron {
     background-image: url('../media/packing-zanzibar.jpg');
-    height: 95vh;
-    background-size: cover;
+    
 }
 
 #about-jumbotron {
     background-image: url('../media/about-zanzibar.jpg');
-    height: 95vh;
-    background-size: cover;
 }
 
 

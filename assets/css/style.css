@@ -256,6 +256,11 @@ body {
     line-height: 17px;
 }
 
+.card-footer {
+    background-color: transparent;
+    border: none;
+}
+
 /*------------Highlights Cards-----------*/
 
 .highlights-card {
@@ -279,20 +284,26 @@ body {
     padding-bottom: 0;
 }
 
+
 @media (min-width: 768px) {
     .highlights-card {
         align-items: center;
-        height: 30em;
+        height: 25em;
     }
     .card-img-top {
         height: 11em;
     }
-    .highlights-card.card-body {
-        height: 15em;
-        line-height: 22px;
+    .highlights-header {
+        height: 3em;
+    }
+    .highlights-card .highlights-body {
+        
+        line-height: 24px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     .highlights-card.card-footer {
-        height: 4em;
+        height: 3em;
     }
     .highlights-card.card-title {
         padding-bottom: 15px;

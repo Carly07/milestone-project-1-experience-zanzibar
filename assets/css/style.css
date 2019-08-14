@@ -213,22 +213,32 @@ body {
 
 #places-jumbotron {
     background-image: url('../media/Zanzibar.jpg');
+    height: 95vh;
+    background-size: cover;
 }
 
 #sights-jumbotron {
     background-image: url('../media/sights-stone-town.jpg');
+    height: 95vh;
+    background-size: cover;
 }
 
 #activities-jumbotron {
     background-image: url('../media/activities-kitesurfing.jpg');
+    height: 95vh;
+    background-size: cover;
 }
 
 #planning-jumbotron {
     background-image: url('../media/planning-zanzibar.jpg');
+    height: 95vh;
+    background-size: cover;
 }
 
 #packing-jumbotron {
     background-image: url('../media/packing-zanzibar.jpg');
+    height: 95vh;
+    background-size: cover;
 }
 
 #about-jumbotron {
@@ -297,7 +307,7 @@ body {
         height: 3em;
     }
     .highlights-card .highlights-body {
-        
+
         line-height: 24px;
         padding-left: 0px;
         padding-right: 0px;

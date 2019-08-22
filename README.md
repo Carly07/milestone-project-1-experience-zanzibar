@@ -21,7 +21,8 @@ As a traveller / holidaymaker already set on Zanzibar as my destination, I want 
 As a member of the tourism industry, I want a platform where I can promote my business / services. I would like to be able to get in touch about advertising my business on the site. 
 
 ### Wireframes
-<img src="assets/media/Mobile1.jpg">
+
+The basic wireframes for this site can be found within this <a target="_blank" href="">repository</a>
 
 ## Features
 

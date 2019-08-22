@@ -22,7 +22,7 @@ As a member of the tourism industry, I want a platform where I can promote my bu
 
 ### Wireframes
 
-The basic wireframes for this site can be found within this <a target="_blank" href="">repository</a>
+The basic wireframes for this site can be found within this <a target="_blank" href="https://github.com/Carly07/milestone-project-1-experience-zanzibar/tree/master/assets/wireframes">repository</a>
 
 ## Features
 

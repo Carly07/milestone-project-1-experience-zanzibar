@@ -180,7 +180,7 @@ To run the project locally, simply clone the repository directly into your chose
 
 •	The text on the <strong>Best Time</strong> modal was copied from <a target="_blank" href="https://www.safantatours.co.tz/Best-Time-to-Visit-Zanzibar-Island.php">Safanta Tours</a>
 
-•	The text on the <strong>Entry requirements</strong> mnodal was taken from <a target="_blank" href="https://www.gov.uk/foreign-travel-advice/tanzania/entry-requirements">gov.uk Foreign Travel Advice</a>
+•	The text on the <strong>Entry requirements</strong> modal was taken from <a target="_blank" href="https://www.gov.uk/foreign-travel-advice/tanzania/entry-requirements">gov.uk Foreign Travel Advice</a>
 
 •	The text on the <strong>Getting Around</strong> modal was taken from <a target="_blank" href="https://www.urbanadventures.com/blog/the-complete-guide-to-zanzibar-travel.html">Urban Adventures</a>
 
@@ -198,4 +198,8 @@ To run the project locally, simply clone the repository directly into your chose
 
 ## Acknowledgements
 
-I received inspiration for this project from the many travel sites that I have visited whilst researching and planning my travel adventures. I would also like to extend a special thanks to my mentor, Antonio, for his help and guidance.
+The picklist for the 'Country' select menu was found on <a target="_blank" href="https://stackoverflow.com/questions/53388003/select-country-dropdown-in-html-page">Stack Overflow</a> 
+
+The keyframes for the fade and scale animations used for the page header and carousels were taken and adapted from this <a target="_blank" href="https://www.youtube.com/watch?v=bVGOLr3JHbg">tutorial</a>. 
+
+<strong>This site is for educational purposes only.</strong> I received inspiration for this project from the many travel sites that I have visited whilst researching and planning my travel adventures.

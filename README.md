@@ -58,7 +58,7 @@ Numerous images, videos and audio clips have been used across the site to stimul
 
 ### Features Left to Implement
 
-In the future I would like to add JavaScript to the contact form to enable information to be transmitted via a server.
+In the future I would like to add some JavaScript to the contact form to enable information to be transmitted via a server.
 
 I would also like to add a booking system so users can book tours, activities and hotels. 
 
@@ -80,6 +80,8 @@ All the languages, frameworks, libraries, and tools used to construct this proje
 
 •	<a target="_blank" href="https://fonts.google.com/">Google Fonts</a> – the font used throughout this website was obtained from Google Fonts.
 
+•   <a target="_blank" href="https://www.google.co.uk/chrome/">Google Chrome</a> - This browser and its' developer tools were used throughout the development of the site. 
+
 •	<a target="_blank" href="https://github.com/">GitHub</a> – GitHub was used for version control
 
 •	<a target="_blank" href="https://validator.w3.org/">W3C Markup Validation Service</a> - The HTML and CSS code for this project was checked and validated by the W3C Markup Validation Service
@@ -88,7 +90,7 @@ All the languages, frameworks, libraries, and tools used to construct this proje
 
 ### Developer tools
 
-AWS cloud9 live preview, google chrome developer tools and responsinator were utilised throughout the development of the project to identify and successfully address any bugs, errors or style issues affecting UX on various screen resolutions. 
+AWS cloud9 live preview, google chrome developer tools and responsinator were utilised throughout the development of the project to identify and successfully address any bugs, errors or style issues affecting UX on various screen resolutions. W3C Markup Validation Service was also used to check the validity of my HTML and CSS code.
 
 ### User scenarios
 
@@ -104,7 +106,7 @@ On the Contact Us form all users are required to enter their name, email, countr
 
 ### Multiple browsers and devices
 
-After the site was deployed, I tested it across four browsers (Chrome, Safari, Internet Explorer, FireFox) and on multiple devices (Samsung Galaxy J3, iPhone 7 Plus, 8, iPad 6, iPad Air, MacBook Air, HP laptop and iMac) to ensure compatibility and responsiveness. 
+After the site was deployed, I tested it across four browsers (Chrome, Safari, Internet Explorer, FireFox) and on multiple devices (Samsung Galaxy J3, iPhone 7 Plus, 8, iPad 6, iPad Air, MacBook Air, HP laptop and iMac) as well as on Responsinator to ensure compatibility and responsiveness.
 
 Whilst testing, I noticed that the background photos appeared zoomed-in both on Chrome and Safari in iOS. On further exploration I discovered that background-attachment: fixed is not compatible with iOS browsers. The issue was fixed by adding a media query with the property value background-attachment: scroll. 
 
